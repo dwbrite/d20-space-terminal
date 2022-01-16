@@ -8,11 +8,13 @@
                        
  w e l c o m e   t o   t h e   t e r m i n a l
 ________________________________________________
+the d20.space user interface microservice
 
 build instructions:
-
 1. install rust
 2. install node
-3. $ cd ui && npm run watch
-4. $ cargo run
+3. >$ cargo run
+
+modify ui on the fly:
+>$ cd ui && npm run watch
 ```

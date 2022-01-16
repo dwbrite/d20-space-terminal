@@ -9,3 +9,6 @@ edition = "2021"
 axum = { version = "0.4.3", features = ["default"] }
 tokio = { version = "1.15.0", features = ["full"] }
 tower-http = { version = "0.2.0", features = ["fs"] }
+
+[build-dependencies]
+npm_rs = "0.2.1"

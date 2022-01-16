@@ -81,6 +81,7 @@ name = "d20-space-terminal"
 version = "0.1.0"
 dependencies = [
  "axum",
+ "npm_rs",
  "tokio",
  "tower-http",
 ]
@@ -317,6 +318,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "b9f1c5b025cda876f66ef43a113f91ebc9f4ccef34843000e0adf6ebbab84e21"
 dependencies = [
  "winapi",
+]
+
+[[package]]
+name = "npm_rs"
+version = "0.2.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f664b3447458ff1c5fee7043990271072bccbd1300f151b2ae84fb461b442824"
+dependencies = [
+ "cfg-if",
 ]
 
 [[package]]
