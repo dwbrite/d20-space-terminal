@@ -9,6 +9,7 @@
  w e l c o m e   t o   t h e   t e r m i n a l
 ________________________________________________
 the d20.space user interface microservice
+built with mithril.js, coffeescript, and sass
 
 build instructions:
 1. install rust
